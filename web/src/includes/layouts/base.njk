@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
+    <meta name="keywords" content="{{ renderData.keywords or keywords or metadata.keywords }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ renderData.title or title or metadata.title }}"/>
+    <meta property="og:site_name" content="{{ renderData.title or title or metadata.title }}"/>
+    <meta property="og:description" content="{{ renderData.description or description or metadata.description }}"/>
+    <meta property="og:locale" content="en-US"/>
+    <meta property="og:image" content="{{ renderData.ogImage or ogImage or metadata.ogImage }}"/>
+    <script src="//assets.adobedtm.com/e6bd1902389a/c800ddef38e2/launch-1dcc695dd04a.min.js" async="true"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body class="app-container">
+    {% include "../components/organisms/header.njk" %}
+    <main class="{{ templateClass }}">
+      {{ content | safe }}
+    </main>
+    {% include "../components/organisms/footer.njk" %}
+  </body>
+  <script src="/js/personalize.js" defer="defer"></script>
+</html>

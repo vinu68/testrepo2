@@ -1,0 +1,13 @@
+{% import "../atoms/inputField.njk" as Inputfield%}
+{% import "../atoms/buttons.njk" as buttonField%}
+{% import "../atoms/label.njk" as labelField%}
+<form name="sigup">
+    <div>
+        {{labelField.label('Username')}}
+        {{ Inputfield.field('username', 'username', 'Username', '', '', '') }}
+    </div>
+    <div>
+        {{buttonField.button('Signup', '', '')}}
+    </div>
+
+</form>

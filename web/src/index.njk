@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+Title: Home
+---
+
+<h1>Home Page</h1>
+
+{% if myProject.environment == "production" %}
+    Production
+{% else %}
+    development
+{% endif %}

@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "sim-studio",
+  "version": "0.0.1",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "description": "Sanity studio for SIM 2.0",
+  "scripts": {
+    "dev": "sanity start",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "build": "sanity build",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "lint": "eslint .",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^1.149.19",
+    "@sanity/block-tools": "^1.149.19",
+    "@sanity/cli": "^1.149.19",
+    "@sanity/components": "^1.149.19",
+    "@sanity/core": "^1.149.19",
+    "@sanity/dashboard": "^1.149.19",
+    "@sanity/default-layout": "^1.149.19",
+    "@sanity/default-login": "^1.149.18",
+    "@sanity/desk-tool": "^1.149.19",
+    "@sanity/image-url": "^0.140.19",
+    "@sanity/vision": "^1.149.16",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "sanity-plugin-dashboard-widget-document-list": "^0.0.10",
+    "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
+  },
+  "devDependencies": {}
+}

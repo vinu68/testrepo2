@@ -1,0 +1,38 @@
+{
+	"name": "sim-web",
+	"version": "0.0.1",
+	"description": "Website for SIM 2.0",
+	"main": ".eleventy.js",
+	"scripts": {
+		"dev": "set ELEVENTY_ENV=development &&  npx @11ty/eleventy --serve",
+		"build": "set ELEVENTY_ENV=production  && npx @11ty/eleventy",
+		"lint": "eslint --ext .js --ignore-path .gitignore .",
+		"test": "jest",
+		"debug": "DEBUG=* npx @11ty/eleventy"
+	},
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.11.0",
+		"@sanity/client": "^1.149.18",
+		"@sanity/image-url": "^0.140.19",
+		"eleventy-plugin-svg-contents": "^0.7.0",
+		"eslint": "^7.6.0",
+		"groq": "^1.149.16",
+		"html-minifier": "^4.0.0",
+		"jest": "^26.2.2",
+		"postcss-calc": "^7.0.2",
+		"postcss-color-function": "^4.1.0",
+		"postcss-css-variables": "^0.17.0",
+		"postcss-custom-units": "^0.1.1",
+		"postcss-hexrgba": "^2.0.1",
+		"postcss-import": "^12.0.1",
+		"postcss-loader": "^3.0.0",
+		"postcss-mixins": "^6.2.3",
+		"postcss-nested": "^4.2.3",
+		"postcss-round-float": "^1.0.0",
+		"stylelint": "^13.6.1",
+		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-config-standard": "^20.0.0",
+		"vue-jest": "^3.0.6"
+	}
+}

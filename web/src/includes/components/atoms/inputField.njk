@@ -1,0 +1,5 @@
+{% macro field(name, id = '', placeholder = '', disabled = false, value = '', classname, type = 'text') %}
+
+    <input id="{{id}}" placeholder="{{placeholder}}" disabled="{{disabled}}" type="{{ type }}" name="{{ name }}" value="{{ value | escape }}" class="{{classname}}"/>
+
+{% endmacro %}

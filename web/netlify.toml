@@ -1,0 +1,18 @@
+[Settings]
+ID = ""
+
+# Settings in the [build] context are global and are applied to all contexts unless otherwise overridden by more specific contexts.
+
+[build]
+  environment = { NODE_VERSION = "12" }
+  base = "packages/web/"
+  publish = "dist/"
+  command = "npm run build"
+  functions = "functions/"
+
+# Root redirects to index.html for now
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/landing-redirect"
+  status = 200
+  force = true

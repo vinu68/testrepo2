@@ -1,0 +1,14 @@
+<header class="app-header">
+		<nav class="app-logo">
+				<a href="/" class="logo"><img src="/images/logo.png" alt=""></a>
+		</nav>
+		<nav >
+				<ul >
+						{%- for nav in collections.nav | reverse -%}
+								<li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}">
+										<a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+								</li>
+						{%- endfor -%}
+				</ul>
+		</nav>
+</header>
