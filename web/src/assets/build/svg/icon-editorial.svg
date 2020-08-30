@@ -1,8 +1,0 @@
-export default {
-      id: "icon-editorial-usage",
-      viewBox: "0 0 23 26",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\icon-editorial.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

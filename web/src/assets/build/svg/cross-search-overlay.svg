@@ -1,8 +1,0 @@
-export default {
-      id: "cross-search-overlay-usage",
-      viewBox: "-289 382 32 30",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\cross-search-overlay.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

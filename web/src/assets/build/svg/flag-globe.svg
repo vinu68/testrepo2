@@ -1,8 +1,0 @@
-export default {
-      id: "flag-globe-usage",
-      viewBox: "0 0 22 22",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\flag-globe.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

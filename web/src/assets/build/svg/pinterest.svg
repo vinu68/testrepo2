@@ -1,8 +1,0 @@
-export default {
-      id: "pinterest-usage",
-      viewBox: "-62 0 512 512",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\pinterest.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

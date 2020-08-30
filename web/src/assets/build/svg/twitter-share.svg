@@ -1,8 +1,0 @@
-export default {
-      id: "twitter-share-usage",
-      viewBox: "0 0 24 24",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\twitter-share.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

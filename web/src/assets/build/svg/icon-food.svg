@@ -1,8 +1,0 @@
-export default {
-      id: "icon-food-usage",
-      viewBox: "0 0 29 44",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\icon-food.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

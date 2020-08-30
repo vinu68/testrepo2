@@ -1,8 +1,0 @@
-export default {
-      id: "search-usage",
-      viewBox: "0 0 20 20",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\search.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

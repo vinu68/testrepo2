@@ -1,8 +1,0 @@
-export default {
-      id: "global-nav-marker-usage",
-      viewBox: "-300 393 11 8",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\global-nav-marker.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

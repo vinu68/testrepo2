@@ -1,8 +1,0 @@
-export default {
-      id: "youtube-usage",
-      viewBox: "0 0 90.677 90.677",
-      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\youtube.svg",
-      toString: function () {
-        return this.url;
-      }
-    }
