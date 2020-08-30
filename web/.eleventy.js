@@ -1,4 +1,10 @@
 const svgContents = require('eleventy-plugin-svg-contents');
+const path = require('path');
+const fs = require('fs');
+
+const isDev = process.env.CONTEXT === 'production' ? false : true;
+const manifestPath = path.resolve(__dirname, 'src', 'assets', 'build', 'manifest.json');
+const manifest = JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
 module.exports = function (config) {
   config.addPlugin(svgContents);
