@@ -1,11 +1,11 @@
 [Settings]
-ID = ""
+ID = "9874cc93-ed35-44e6-a937-314c3fa3578c"
 
 # Settings in the [build] context are global and are applied to all contexts unless otherwise overridden by more specific contexts.
 
 [build]
   environment = { NODE_VERSION = "12" }
-  base = "packages/web/"
+  base = "web"
   publish = "dist/"
   command = "npm run build"
   functions = "functions/"
