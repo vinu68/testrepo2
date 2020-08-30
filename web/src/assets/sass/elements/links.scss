@@ -1,0 +1,43 @@
+// Links and buttons
+%button {
+  background-color: $color-pink;
+  color: $color-white;
+  padding: $button-inner-spacing;
+  border: 0;
+}
+
+a,
+button {
+  @include font-size('cta-primary-xs');
+  cursor: pointer;
+  &:focus {
+    outline: 2px dashed $color-pink;
+  }
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-pink;
+  }
+
+  &:active {
+    color: $color-pink;
+  }
+}
+
+button {
+  border: 0;
+  background-color: $color-transparent;
+}
+
+.c-btn {
+  @extend %button;
+
+  &-secondary {
+    @extend %button;
+    background-color: $color-white;
+  }
+}

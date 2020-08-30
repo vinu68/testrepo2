@@ -1,0 +1,8 @@
+export default {
+      id: "Icon_ quote-usage",
+      viewBox: "0 0 21 14",
+      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\Icon_ quote.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

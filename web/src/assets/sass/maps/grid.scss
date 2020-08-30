@@ -1,0 +1,19 @@
+//see ./tools/_media-queries.css for reference
+
+$container-lg: 1176px;
+$gutter-lg: 10px;
+
+$container-md: 960px;
+$gutter-md: 8px;
+
+$container-sm: 736px;
+$gutter-sm: 8px;
+
+$container-xs: 540px;
+$gutter-xs: 8px;
+
+//device sizes
+
+$device-size: '', xs, sm, md, lg;
+$grid-columns: 12;
+$grid-columns-xs: 4;

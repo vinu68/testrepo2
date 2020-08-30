@@ -1,0 +1,8 @@
+export default {
+      id: "instagram-usage",
+      viewBox: "0 0 169.063 169.063",
+      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\instagram.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

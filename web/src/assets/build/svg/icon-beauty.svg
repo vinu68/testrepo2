@@ -1,0 +1,8 @@
+export default {
+      id: "icon-beauty-usage",
+      viewBox: "0 0 22 25",
+      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\icon-beauty.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

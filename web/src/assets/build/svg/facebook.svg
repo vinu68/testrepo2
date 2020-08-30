@@ -1,0 +1,8 @@
+export default {
+      id: "facebook-usage",
+      viewBox: "0 0 512 512",
+      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\facebook.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

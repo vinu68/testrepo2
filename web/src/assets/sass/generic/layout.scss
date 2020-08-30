@@ -1,0 +1,43 @@
+.container {
+  padding: 0 $gutter-xs * 2;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (--mq-xs) {
+    max-width: $container-sm;
+  }
+
+  @media (--mq-sm) {
+    max-width: $container-sm;
+  }
+
+  @media (--mq-md) {
+    max-width: $container-md;
+  }
+
+  @media (--mq-lg) {
+    max-width: $container-lg;
+    padding: 0 $gutter-lg * 2;
+  }
+
+  &-fluid {
+    padding: 0 $gutter-xs;
+    max-width: none;
+    width: 100%;
+    @media (--mq-lg) {
+      padding: 0 $gutter-lg * 2;
+    }
+  }
+}
+.row {
+  @media (--mq-lg) {
+    margin: 0 (-$gutter-lg);
+  }
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 (-$gutter-xs);
+
+  &.row-nowrap {
+    flex-wrap: nowrap;
+  }
+}

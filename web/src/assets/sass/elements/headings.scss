@@ -1,0 +1,45 @@
+// Headings
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.c-text-heading-1 {
+  @include font-size('h1-xs');
+  @media (--mq-md) {
+    @include font-size('h1-md');
+  }
+}
+
+h2,
+.c-text-heading-2 {
+  @include font-size('h2-xs');
+  @media (--mq-md) {
+    @include font-size('h2-md');
+  }
+}
+
+h3,
+.c-text-heading-3 {
+  @include font-size('h3-xs');
+  @media (--mq-md) {
+    @include font-size('h3-md');
+  }
+}
+
+h4,
+.c-text-heading-4 {
+  @include font-size('h4-xs');
+}
+
+p {
+  strong {
+    font-weight: bold;
+  }
+}

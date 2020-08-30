@@ -1,0 +1,8 @@
+export default {
+      id: "emoji-happy-usage",
+      viewBox: "0 0 49 48",
+      url: "/sprites/" + "C:\\uniliver\\sim2\\simcodebase\\sim\\packages\\web\\src\\assets\\svg\\emoji-happy.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

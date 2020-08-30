@@ -1,0 +1,29 @@
+// hidden utility class
+@each $size in $device-size {
+  @if $size == '' {
+    .hidden {
+      display: none !important; /* stylelint-disable-line declaration-no-important */
+    }
+  } @else {
+    @media (--mq-#{$size}) {
+      .hidden-#{$size} {
+        display: none !important; /* stylelint-disable-line declaration-no-important */
+      }
+    }
+  }
+}
+
+// visible utility class
+@each $size in $device-size {
+  @if $size == '' {
+    .visible {
+      display: block !important; /* stylelint-disable-line declaration-no-important */
+    }
+  } @else {
+    @media (--mq-#{$size}) {
+      .visible-#{$size} {
+        display: block !important; /* stylelint-disable-line declaration-no-important */
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+// Typography Map
+
+$font-arial: Arial, sans-serif;
+$font-regular: 400;
+$font-bold: 700;
+$font-semi-bold: 600;
+
+$button-inner-spacing: 13px 58px;
+
+$zindex-menu: 10;
+$zindex-overlay: 20;
+$zindex-bullets-carousel: 2;
+$zindex-swiperNav: 5;
+
+$fonts: (
+  default: (
+    font: 26px,
+    lh: 32px,
+  ),
+  h1-xs: (
+    font: 26px,
+    lh: 32px,
+  ),
+  h1-md: (
+    font: 36px,
+    lh: 42px,
+  ),
+  h2-xs: (
+    font: 22px,
+    lh: 26px,
+  ),
+  h2-md: (
+    font: 30px,
+    lh: 36px,
+  ),
+  h3-xs: (
+    font: 18px,
+    lh: 22px,
+  ),
+  h3-md: (
+    font: 22px,
+    lh: 28px,
+  ),
+  h4-xs: (
+    font: 20px,
+    lh: 28px,
+  ),
+  tag-xs: (
+    font: 14px,
+    lh: 16px,
+  ),
+  tag-md: (
+    font: 16px,
+    lh: 18px,
+  ),
+  tag-secondary-xs: (
+    font: 13px,
+    lh: 15px,
+  ),
+  p-xs: (
+    font: 18px,
+    lh: 24px,
+  ),
+  p-secondary-xs: (
+    font: 16px,
+    lh: 24px,
+  ),
+  cta-primary-xs: (
+    font: 18px,
+    lh: 22px,
+  ),
+  cta-secondary-xs: (
+    font: 12px,
+    lh: 14px,
+  ),
+  select-xs: (
+    font: 18px,
+    lh: 31px,
+  ),
+  navigation-xs: (
+    font: 28px,
+    lh: 21px,
+  ),
+  navigation-md: (
+    font: 16px,
+    lh: 20px,
+  ),
+  subnavigation-xs: (
+    font: 13px,
+    lh: 20px,
+  ),
+  footer-xs: (
+    font: 12px,
+    lh: 20px,
+  ),
+  footer-md: (
+    font: 10px,
+    lh: 18px,
+  ),
+  title-xs: (
+    font: 16px,
+    lh: 22px,
+  ),
+  title-md: (
+    font: 30px,
+    lh: 36px,
+  ),
+  story-title-md: (
+    font: 18px,
+    lh: 24px,
+  ),
+  step-xs: (
+    font: 55px,
+    lh: 64px,
+  ),
+  step-md: (
+    font: 70px,
+    lh: 80px,
+  ),
+  steps-xs: (
+    font: 40px,
+    lh: 45px,
+  ),
+  search-heading: (
+    font: 42px,
+    lh: normal,
+  ),
+  search-button: (
+    font: 16px,
+    lh: normal,
+  ),
+  swiper-bullet-xs: (
+    font: 12px,
+    lh: 30px,
+  ),
+);
