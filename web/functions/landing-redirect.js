@@ -1,0 +1,18 @@
+const cookie = require('cookie');
+
+exports.handler = async (event, context) => {
+  const visited = (event.headers.cookie && cookie.parse(event.headers.cookie).visited) || false;
+  let landingPage = '/';
+  if (visited) {
+    landingPage = '/';
+  }
+  console.log('visited: ' + visited);
+  return {
+    statusCode: 302,
+    headers: {
+      Location: landingPage,
+      'Cache-Control': 'no-cache',
+    },
+    body: JSON.stringify({}),
+  };
+};
