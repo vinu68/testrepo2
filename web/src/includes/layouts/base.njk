@@ -16,8 +16,8 @@
     <meta property="og:description" content="{{ renderData.description or description or metadata.description }}"/>
     <meta property="og:locale" content="en-US"/>
     <meta property="og:image" content="{{ renderData.ogImage or ogImage or metadata.ogImage }}"/>
-    <script src="//assets.adobedtm.com/e6bd1902389a/c800ddef38e2/launch-1dcc695dd04a.min.js" async="true"></script>
-    <link rel="stylesheet" href="/css/styles.css">
+
+    {% bundledCss %}
   </head>
 
   <body class="app-container">
@@ -26,6 +26,11 @@
       {{ content | safe }}
     </main>
     {% include "../components/organisms/footer.njk" %}
+    {% bundledPluginsCss %}
+    {% bundledComponentCss %}
+    {% bundledJs %}
+    {% bundledComponentJs %}
+
   </body>
-  <script src="/js/personalize.js" defer="defer"></script>
+
 </html>
