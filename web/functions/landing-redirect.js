@@ -2,9 +2,9 @@ const cookie = require('cookie');
 
 exports.handler = async (event, context) => {
   const visited = (event.headers.cookie && cookie.parse(event.headers.cookie).visited) || false;
-  let landingPage = '/';
+  let landingPage = '/login';
   if (visited) {
-    landingPage = '/';
+    landingPage = '/login';
   }
   console.log('visited: ' + visited);
   return {
